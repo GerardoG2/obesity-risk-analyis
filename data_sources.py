@@ -4,7 +4,7 @@ Each function contains the datasource and a brief description of the data.
 """
 import pandas as pd
 
-def load_uci_obesity_data(file_path = "DataSets/UCI_ObesityDataSet"):
+def load_uci_obesity_data(file_path = "DataSets/UCI_ObesityDataSet.csv"):
     """
     Load UCI dataset as dataframe.
 
@@ -16,7 +16,7 @@ def load_uci_obesity_data(file_path = "DataSets/UCI_ObesityDataSet"):
     """
     return pd.read_csv(file_path)
 
-def load_cdc_obesity_data(file_path = "DataSets/CDC_ObesityDataSet"):
+def load_cdc_obesity_data(file_path = "DataSets/CDC_ObesityDataSet.csv"):
     """
     Load CDC dataset as dataframe.
 
